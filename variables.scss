@@ -1,0 +1,15 @@
+$primary-color: rgb(47, 154, 204);
+$text-color: #f3f3f3;
+
+// list
+$suffix: small , medium, large;
+// to get the value index starts at 1
+// nth(list-name, index)
+
+
+// map
+$element-sizes: (
+    small: 100px,
+    medium: 300px,
+    large: 500px
+);

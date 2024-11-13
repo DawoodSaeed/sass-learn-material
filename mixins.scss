@@ -1,0 +1,15 @@
+@function custom-color($size){
+    @if $size == small {
+        @return #000
+    }
+
+    @return #f3f3f3;
+}
+
+// contain styling that will be used at many places;
+@mixin common($color: #000) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color;
+}
